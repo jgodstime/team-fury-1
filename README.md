@@ -21,4 +21,3 @@ This is the repository for the stage 2 promotion task for HNG i7. Each team memb
 - Proceed to your online repository and create a pull request
 
 > Happy Hacking
-    
