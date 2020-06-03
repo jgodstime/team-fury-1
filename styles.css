@@ -18,12 +18,16 @@ html, body {
 
 nav {
     width: 100%;
+    margin-bottom: 20px;
     background-color: #ffffff;
-    margin-bottom: 40px;
     padding: 0 100px;
     display: flex;
     align-items: center;
     
+}
+
+.bg-light {
+    background-color: #fff;
 }
 
 nav > ul {
@@ -38,10 +42,58 @@ nav > ul > li {
 }
 
 .col {
-    background-color: #fff;
     width: 90%;
     box-shadow: 1px 1px 10px 1px #dfe6e9; 
     border-radius: 15px;  
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    border: 0;
+    box-shadow: 0 0 0 0;
+    margin-bottom: 15px;
+}
+
+.stats {
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stats > small {
+    background-color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+.submitted {
+    background-color: #0984e3;
+}
+
+.submitted > small {
+    color: #0984e3;
+}
+
+.passed {
+    background-color: #fff;
+    color: #00b894;
+}
+
+.passed > small {
+    color: #fff;
+    background-color: #00b894;
+}
+
+.failed {
+    background-color: #ee5253;
+}
+
+.failed > small {
+    color: #ee5253;
 }
 
 table {
