@@ -8,5 +8,5 @@ function displayOutput() {
     return output;  
 };
 
-console.log(displayOutput());
+displayOutput();
 //Hello World, this is Abisoye Alli-Balogun with HNGi7 ID HNG-00110 using Javascript for stage 2 task"
