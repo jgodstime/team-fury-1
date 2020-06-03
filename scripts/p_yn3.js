@@ -1,8 +1,11 @@
 var displayText = {
   name:"Peter Amugen",
-  id:'"HNGi-01447"',
-  language:"javascript"
+  id:"HNGi-01447",
+  language:"javascript",
+  email:"amugenp@gmail.com"
 };
 
+document.write("Hello world, this is " + displayText.name + " with HNGi id " + displayText.id + " using " + displayText.language + " for stage 2 task.");
 
-document.write( "Hello world, this is " + displayText.name + " with HNGi7 ID " + displayText.id + " using " + displayText.language + " for stage 2 task.").innerHTML;
+var myJSON = JSON.stringify(displayText);
+console.log(myJSON);
