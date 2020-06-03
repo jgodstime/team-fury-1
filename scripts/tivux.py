@@ -1,7 +1,7 @@
 def print_text():
-    text = 'Hello World, this is {full_name} with HNGi7 ID {ID} using {language} for stage 2 task'
+    text = 'Hello World, this is {name} with HNGi7 ID {id} and email {email} using {language} for stage 2 task'
 
-    print(text.format(full_name="An Vu", ID="HNG-01042", language="Python"))
+    print(text.format(name="An Vu", id="HNG-01042", email="anvutien99@gmail.com", language="Python"))
 
 
 print_text()
