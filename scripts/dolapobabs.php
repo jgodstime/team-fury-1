@@ -1,12 +1,12 @@
 <?php
 
 
-function displayMessage($name, $id, $language){
+function displayMessage($name, $email, $id, $language){
 
-    $msg =  "Hello World, this is $name with HNGi7 ID $id using $language for stage 2 task";
+    $msg =  "Hello World, this is $name with HNGi7 ID $id and $email using $language for stage 2 task";
     return $msg;
 }
 
 
-echo displayMessage("Babatunde Adedolapo", "HNG-02680","PHP");
+echo displayMessage("Babatunde Adedolapo","dolapob@gmail.com", "HNG-02680","PHP");
 ?>
