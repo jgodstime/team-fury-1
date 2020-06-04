@@ -1,7 +1,7 @@
 <?php include_once("mocks-parser.php"); ?>
 
 <?php if (isset($_GET["json"])):
-    print_r(parse_scripts(true, true)); // prettify for now
+    print_r(get_results_summary_as_json()); // prettify for now
 ?>
   
 
@@ -48,9 +48,12 @@
                             <td>STATUS</td>
                         </thead>
                         <tbody>
+                        <?php
+                            ob_start();
+                            foreach($scriptsFilenames as $key => $filename):
+                        ?>
                             <?php
-                                $resultsSummary = parse_scripts();
-                                foreach ($resultsSummary->totalResults as $key => $result):
+                                $result = parse_script($filename);
                             ?>
                             <tr>
                                 <td><?= $key + 1; ?></td>
@@ -66,7 +69,14 @@
                                     <?php endif; ?>                                    
                                 </td>
                             </tr>
-                            <?php endforeach ?>
+                            <?php
+                                ob_flush();
+                                flush();
+                                ?>
+                        <?php
+                            endforeach;
+                            ob_end_clean();
+                        ?>
                         </tbody>
                     </table>
                 </div>
