@@ -1,0 +1,1 @@
+echo "I am an invalid script"
