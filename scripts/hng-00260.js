@@ -2,7 +2,7 @@
 var item = {
     fullname: "Ajao Ataulmujeeb",
     id: "HNG-00260",
-    language: "Javascript",
+    language: "Javasgit cript",
     email: "ajaodlp@gmail.com"
 }
 
