@@ -1,4 +1,3 @@
-
 function interShipDetails() {
     let fullName = "Clement Femi Bazuaye";
     let id = "HNG-02047";
