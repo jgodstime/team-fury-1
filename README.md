@@ -57,12 +57,10 @@ Create a file in the scripts folder with any of the mentioned programming langua
     git clone https://github.com/youraccount/team-fury-1.git && cd team-fury-1
 ```
 - After cloning, navigate to the script folder and create a file file `username.(js,py,php)`
-
 ```git
     cd scripts
 ```
 - run the following codes to commit your changes
-
 ```git
     git branch [branchname]
     git checkout [branchname]
