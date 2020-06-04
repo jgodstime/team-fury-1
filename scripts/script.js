@@ -1,22 +1,18 @@
-fetch("scripts/person.json")
-  .then(function (response) {
-    // The API call was successful!
-    return response.json();
-  })
-  .then(function (data) {
-    // This is the JSON from our response
-    appendData(data);
-  })
-  .catch(function (err) {
-    // If there was an error report error to console
-    console.log("error: " + err);
-  });
-// Assign JSON from response to a function
-function appendData(data) {
-  // Iterate over the object (response from JSON)
-  for (var i = 0; i < data.length; i++) {
-    console.log(
-      `Hello World, this is ${data[i].fullname} with HNGi7 ID ${data[i].id} and email ${data[i].email} using ${data[i].language} for stage 2 task`
-    );
-  }
-}
+// Collect data in object pairs
+let data =   {
+  fullname: "Oluwaseun Iyadi",
+  output: "Hello World, this is Oluwaseun Iyadi with HNGi7 ID HNG-05348 and email oluwaseuniyadi@yahoo.com using Javascript for stage 2 task",
+  id: "HNG-05348",
+  status: "pass",
+  language: "Javascript",
+  email: "oluwaseuniyadi@yahoo.com",
+  file: "scripts/script.js"
+};
+
+// Use data object in string literal
+let getData = () => {
+  return `Hello World, this is ${data.fullname} with HNGi7 ID ${data.id} and email ${data.email} using ${data.language} for stage 2 task`;
+};
+
+// Output getData to terminal
+console.log(getData());
