@@ -1,3 +1,2 @@
-My task 2
-
-java script
+This is My Assingment For Team Fury
+From BaZz
