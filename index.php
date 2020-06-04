@@ -1,4 +1,4 @@
-<?php include_once("parser.php"); ?>
+<?php include_once("mocks-parser.php"); ?>
 
 <?php if (isset($_GET["json"])):
     print_r(parse_scripts(true, true)); // prettify for now
@@ -48,7 +48,7 @@
                             <td>STATUS</td>
                         </thead>
                         <tbody>
-                            <?php 
+                            <?php
                                 $resultsSummary = parse_scripts();
                                 foreach ($resultsSummary->totalResults as $key => $result):
                             ?>
