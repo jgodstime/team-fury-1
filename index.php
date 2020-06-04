@@ -1,7 +1,7 @@
 <?php include_once("mocks-parser.php"); ?>
 
 <?php if (isset($_GET["json"])):
-    print_r(get_results_summary_as_json()); // prettify for now
+    print_r(get_results_summary_as_json(true)); // prettify for now
 ?>
   
 
