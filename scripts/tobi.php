@@ -1,5 +1,10 @@
+
 <?php 
-		function mydetails(){
+
+
+=======
+<?php 
+		function viewMe(){
 
 			$id="HNG-04469";
 			$fullname="Adesina Oluwatobi";
@@ -10,7 +15,8 @@
 
 }
 		  
-  mydetails();
+  viewMe();
+
 
 
 ?> 
