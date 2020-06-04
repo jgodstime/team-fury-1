@@ -2,10 +2,8 @@
 
 <?php if (isset($_GET["json"])):
 
-  echo '<pre>';
-    print_r(parse_scripts(true, true)); // prettify for now
+      print_r(parse_scripts(true, true)); // prettify for now
 
-  echo '</pre>';
 ?>
 
 
