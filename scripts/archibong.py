@@ -2,7 +2,7 @@ import json
 
 
 class Task:
-	def __init__(self, name, id, language):
+	def __init__(self, name, id, email, language):
 		self.name = name
 		self.language = language
 		self.id = id
@@ -13,6 +13,6 @@ class Task:
 
 email = 'archibongc4@gmail.com'
 
-t = Task("Charles Effiom", 'HNGi7-01950', "Python")
+t = Task("Charles Effiom", 'HNGi7-01950', 'archibongc4@gmail.com', "Python")
 t.text()
 
