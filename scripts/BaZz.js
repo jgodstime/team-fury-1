@@ -4,7 +4,5 @@ function interShipDetails() {
     let id = "HNG-02047";
     let email = "bazuaye50@gmail.com";
     let language = "java Script";
-    console.log("Hello World, This is " + fullName + " with HNGi7 ID " + id + " and Email " + email + " using " + language + " for Stage 2 task")
-    }
-    
-interShipDetails();
+    console.log("Hello World, This is " + fullName + " with HNGi7 ID " + id + " and Email " + email + " using " + language + " for Stage 2 task")}
+    interShipDetails();
