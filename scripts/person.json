@@ -1,9 +1,11 @@
 [
-    {
-        "name": "Oluwaseun Iyadi",
-        "output":"Hello World, this is Oluwaseun Iyadi with HNGi7 ID HNG-05348 using Javascript for stage 2 task",
-        "id": "HNG-05348",
-        "language": "Javascript",
-        "email":"oluwaseuniyadi@yahoo.com"
-    }
+  {
+    "fullname": "Oluwaseun Iyadi",
+    "output": "Hello World, this is Oluwaseun Iyadi with HNGi7 ID HNG-05348 and email oluwaseuniyadi@yahoo.com using Javascript for stage 2 task",
+    "id": "HNG-05348",
+    "status": "pass",
+    "language": "Javascript",
+    "email": "oluwaseuniyadi@yahoo.com",
+    "file": "scripts/script.js"
+  }
 ]
