@@ -1,4 +1,4 @@
-full_name = 'Sibongusizolwenkosi'
+full_name = 'Sibongusizolwenkosi M Sibanda'
 email = 'sizosibanda14@gmail.com'
 hngi7_id = 'HNG-02873'
 language = 'Html and CSS'
