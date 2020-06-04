@@ -6,7 +6,7 @@ $parentDir = Set-Location -Path .. -PassThru
 $mocksDir = "$parentDir/mocks"
 
 New-Item $mocksDir -Force -ItemType Directory
-Get-ChildItem -Path $mocksDir -Include * -File -Recurse | foreach { $_.Delete()}
+Get-ChildItem -Path $mocksDir -Include * -File -Recurse | ForEach-Object { $_.Delete()}
 
 for ($num = 1; $num -le $count; $num++) {
 $hngId = "HNG-$num"
@@ -18,7 +18,7 @@ if ($hngId.length -lt 9) {
 	if ($hngId.length -eq 8) { $hngId = $hngId + "0" }
 }
 
-	echo "/**
+	Write-Output "/**
  * Output data object.
  */
 let myOutputData = {
