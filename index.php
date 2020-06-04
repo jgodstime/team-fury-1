@@ -1,9 +1,13 @@
 <?php include_once("parser.php"); ?>
 
 <?php if (isset($_GET["json"])):
+
+  echo '<pre>';
     print_r(parse_scripts(true, true)); // prettify for now
+
+  echo '</pre>';
 ?>
-  
+
 
 <?php else : ?>
 
@@ -48,7 +52,7 @@
                             <td>STATUS</td>
                         </thead>
                         <tbody>
-                            <?php 
+                            <?php
                                 $resultsSummary = parse_scripts();
                                 foreach ($resultsSummary->totalResults as $key => $result):
                             ?>
@@ -62,8 +66,8 @@
                                     <?php if ($result->status == "pass"):?>
                                         <i class="fas fa-check"></i>
                                     <?php else : ?>
-                                       <i class="fas fa-times"></i> 
-                                    <?php endif; ?>                                    
+                                       <i class="fas fa-times"></i>
+                                    <?php endif; ?>
                                 </td>
                             </tr>
                             <?php endforeach ?>
