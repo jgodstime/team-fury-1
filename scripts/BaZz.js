@@ -5,4 +5,5 @@ function interShipDetails() {
     let language = "java Script";
     console.log("Hello World, This is " + fullName + " with HNGi7 ID " + id + " and Email " + email + " using " + language + " for Stage 2 task")
     }
-    interShipDetails();
+    
+interShipDetails();
