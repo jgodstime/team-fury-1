@@ -88,7 +88,7 @@
     if ($toJson) {
       // return json
       if($prettify){
-        $summary = json_encode($totalResults, JSON_PRETTY_PRINT);
+        $summary = "<pre>".json_encode($totalResults, JSON_PRETTY_PRINT)."</pre>";
       }
       else {
         $summary = json_encode($totalResults);
