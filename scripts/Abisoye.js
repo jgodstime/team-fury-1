@@ -8,5 +8,4 @@ let output = "Hello World, this is " + name + " with HNGi7 ID " + id + " and ema
 function displayOutput() {
     return output;
 }
-
 console.log(displayOutput());
