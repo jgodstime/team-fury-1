@@ -2,7 +2,7 @@ var fullName = "Adunola Johnson Odetola"
 
 var id = "HNG-04051";
 
-var email = "aduntobi72gmail.com";
+var email = "aduntobi7@gmail.com";
 
 var language = "JavaScript";
 
