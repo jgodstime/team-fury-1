@@ -1,6 +1,7 @@
 var data = {
     fullname: "Faith Mofokeng",
     hng_id: "HNG-03500",
+    language: "javascript",
     email: "faithmofokeng5@gmail.com",
     language: "javascript",
 }

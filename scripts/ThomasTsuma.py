@@ -1,0 +1,1 @@
+﻿print("Hello World, my name is Thomas Tsuma with HNGI7 ID HNG-00332 using Python for stage 2 task 
