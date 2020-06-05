@@ -6,10 +6,10 @@ var email = "ajirimenor@gmail.com";
 
 var myOutput = "Hello World, i am " + fullName + " with HNGi7 ID " + hngId + " and email " + email + " using " + langauge + " for stage 2 task";
 
-function menor(){
+function menorOutput(){
     
    
     return myOutput;
 }
 
-console.log(menor());
+menorOutput();
