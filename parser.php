@@ -90,7 +90,7 @@
       if($prettify){
         $summary = "<pre>".json_encode($totalResults, JSON_PRETTY_PRINT)."</pre>";
       }
-      else {
+      else { 
         $summary = json_encode($totalResults);
       }
       

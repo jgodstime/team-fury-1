@@ -1,9 +1,9 @@
 <?php include_once("parser.php"); ?>
 
-<?php if (isset($_GET["json"])):
+<?php if (isset($_GET["json"])): 
 
     print_r(parse_scripts(true, true)); // prettify for now
-
+?>
 <?php else : ?>
 
     <!DOCTYPE html>
