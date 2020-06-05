@@ -35,3 +35,7 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 # Scope
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
+
+# Tests
+
+We've written tests and you can run them to assure the stability of the code, Copy your output and visit Regex101, see test guide here. If you're adding a new functionality please write a test for it.
