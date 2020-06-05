@@ -1,6 +1,6 @@
 <?php
 
-$hello = "Hello world";
+$hello = "Hello World";
 $fullname = "Olamiposi Olaiya";
 $id = "HNG-03469";
 
