@@ -1,0 +1,5 @@
+git branch [master]
+git checkout [master]
+add .
+git commit -a -m "Stage 2 task"
+git push origin [master]
