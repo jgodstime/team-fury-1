@@ -4,11 +4,11 @@
 
 ## TASK 2 CONTENT
 
-1. [How To Fork A Repositrory]
-2. [How To Clone A Repository]
-3. [How To Build Your Script]
-4. [How To Test Your Script]
-5. [How To Commit Your Changes]
+1. [How To Fork A Repositrory](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-fork-a-repositrory)
+2. [How To Clone A Repository](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-clone-a-repositoy)
+3. [How To Build Your Script](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-build-your-script)
+4. [How To Test Your Script](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-test-the-script)
+5. [How To Commit Your Changes](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-commit-the-script)
 
 ## How To Fork A Repositrory
 
@@ -18,13 +18,14 @@
 
 ## How to Clone A Repositoy
 
-1. After forking the repository
+1. After [forking](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-fork-a-repositrory) the repository
 2. You will see a clone button on the repository having a download icon
 3. Click on the button to get the repository address link
 4. Open Your terminal and run the command ``` git clone https://github.com/hng-teamfury/team-fury-1.git ```
 5. The command will download the repository folder into your device
 
 ## How to Build Your Script
+After You Have Successfully [Clone](https://github.com/EmmanuelOluwafemi/team-fury-1#how-to-clone-a-repositoy) The Repository
 Using Your Favourite Test Editor Open the folder and navigate to scripts folder
 
 
