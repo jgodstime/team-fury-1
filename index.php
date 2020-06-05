@@ -2,7 +2,7 @@
 
 <?php if (isset($_GET["json"])):
     print_r(parse_scripts(true, false)); // prettify for now
-?> 
+?>
 
 
 <?php else : ?>
@@ -37,7 +37,7 @@
             </div>
         </header>
         <div class="highlight">
-            <?php 
+            <?php
                 $resultsSummary = parse_scripts();
             ?>
             <div class="total">
@@ -67,7 +67,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php                        
+                        <?php
                         foreach ($resultsSummary->totalResults as $key => $result) :
                         ?>
                             <tr>
