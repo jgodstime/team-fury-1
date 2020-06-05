@@ -1,1 +1,0 @@
-console.log("Hello World, this is abidat akinleye with HNGi7 ID HNG-02312 and email akinleyeomobolanle@icloud.com using Javascript for stage 2 task");
