@@ -11,4 +11,3 @@ function Adunola() {
 }
 
 console.log(Adunola());
-"Hello World, this is Adunola Johnson Odetola with HNGi7 ID HNG-04051 and email aduntobi72gmail.com using JavaScript for stage 2 task"

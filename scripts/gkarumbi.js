@@ -1,14 +1,21 @@
 
-const myName = "George Karumbi";
-const intershipID = "HNG-01209";
-const myLang = "Javascript";
-const email = "gkarumbi@gmail.com";
+
+
+const myDetails ={
+    myName : "George Karumbi",
+    intershipID : "HNG-01209",
+    myLang : "Javascript",
+    email : "gkarumbi@gmail.com"
+};
+
+
+ 
 
 georgeKarumbiDetails =()=>{
-    let helloWorld  =`Hello World, this is ${myName} with HNGi7 ID ${intershipID} using ${myLang} for stage 2 task` ;
+    let helloWorld  =`Hello World, this is ${myDetails.myName} with HNGi7 ID ${myDetails.intershipID} and email ${myDetails.email} using ${myDetails.myLang} for stage 2 task` ;
   
-    console.log(helloWorld);
+    return helloWorld;
 }
 
 
-georgeKarumbiDetails();
+console.log(georgeKarumbiDetails());

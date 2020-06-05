@@ -8,6 +8,6 @@ var fullName = "Nwachi Emmanuel Greatness",
                 return result;
     }
 
-        nwachi();
+        console.log(nwachi());
 
 

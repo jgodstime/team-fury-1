@@ -4,7 +4,7 @@
 		fullName: 'Francis Tochukwu Udeji',
 		language: 'JavaScript',
 		id: 'HNG-04675',
-		version: 'HGNi7',
+		version: 'HNGi7',
 		stage: 2,
 	}
 
