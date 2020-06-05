@@ -3,7 +3,7 @@
 <?php if (isset($_GET["json"])):
     print_r(parse_scripts(true, true)); // prettify for now
 ?> 
-
+ 
 
 <?php else : ?>
 
