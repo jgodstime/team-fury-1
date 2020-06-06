@@ -5,7 +5,7 @@ const email = 'preciousovobite@gmail.com';
 const language = 'javascript';
 
 let script;
-script = 'Hello World, this is ' + name + ' with HNGi7 ID ' + id + ' using ' + language + ' for stage 2 task and ' + email + '';
+script = 'Hello World, this is ' + name + ' with HNGi7 ID ' + id + 'and ' + email + ' using ' + language + ' for stage 2 task';
 
 // output
 console.log(script);
