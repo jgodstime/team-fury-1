@@ -1,5 +1,5 @@
 // my details
-const name = 'Ovobite Precious';
+const fullname = 'Ovobite Precious';
 const id = 'HNG-02361';
 const email = 'preciousovobite@gmail.com';
 const language = 'javascript';
