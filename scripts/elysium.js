@@ -1,9 +1,9 @@
 'use strict';
 
-let fullName = "Lekan Adetunmbi";
-let ID = "HNG-00221";
+let fullname = "Lekan Adetunmbi";
+let id = "HNG-00221";
 let email = "lothbroch@gmail.com";
-let language = "javascript";
+let language = "Javascript";
 
 const pass= `Hello World, this is ${fullName} with HNG ID ${ID} and email ${email} using ${language} for stage 2 task`;
 
