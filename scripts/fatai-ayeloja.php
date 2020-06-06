@@ -1,9 +1,14 @@
 <?php
-//Task to progress into stage 2 of HNG Internship 7.0
 
-function display($name, $email, $id, $prolang){
-        echo "Hello !!, My name is: $name , HNGi7 ID: $id and email add: $email using $prolang .";
-    }
+//Task to progress into stage 2 of HNG Internship 7.0 4-6-2020
+//upated 6-6-2020
 
-    display('Fatai Ayeloja A', 'fayeloja@gmail.com', 'HNG-02584', 'PHP');
+$fullname = "Fatai Ayeloja";
+$emailadd = "fayeloja@gmail.com";
+$hngi7id = "HNG-02584";
+$prolang = "PHP";
+$level = "stage 2";
+
+echo "Hello World, this is {$fullname} with HNGi7 ID {$hngi7id} using $prolang for {$level} task";
+
 ?>
