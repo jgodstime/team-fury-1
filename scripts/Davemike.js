@@ -1,21 +1,14 @@
+class Name{
 
-var profile = {
-    fullname: "Ekpenyong David Michael",
-
-     email: "ekpenyongdavidmichael@gmail.com",
-
-    hng_id: "HNG-01875",
-
-    language: "Javascript",
-
-   
-    
+	constructor(name,id, email,language,){
+                this.name=name;
+                this.id=id;
+                this.email=email
+                this.language=language;
+  }
+	introduce(){
+		    console.log(`Hello World, this is ${this.name},with HNGi7 ID ${this.id} and ${this.email} using ${this.language} for stage 2 task`);
+	}
 }
-
-function myprofile(){
-    var result = `Hello world, this is ${profile.fullname} with HNGi7 ID ${profile.hng_id} and email ${profile.email} using ${profile.language} for stage 2 task`;
-    return console.log(result);
-}
-
-myprofile();
-
+const name1= new Name('Ekpenyong David Michael','HNG-01875','ekpenyongdavidmichael@gmail.com','Javascript');
+name1.introduce();
