@@ -1,12 +1,13 @@
-let name = 'CHIBUZOR-MADUBA';
-let id = 'HNG-06509';
-let email = 'chibuzormaduba@gmail.com';
-let language = 'Javascript';
+/*This is my script for HNGi7 Stage two */
+function myfunction() {
+    var myData = {
+        fullName: "CHIBUZOR MADUBA",
+        email:"chibuzormaduba@gmail.com",
+        language:"JavaScript",
+        hng_id:"HNG-06509"
+    }
+    return `Hello World, this is ${myData.fullName} with HNGi7 ID ${myData.hng_id} and email ${myData.email} using ${myData.language} for stage 2 task`                                                                                                                                                       
 
-let output = "Hello World, this is " + name + " with HNGi7 ID " + id + " and email " + email + " using " + language + " for stage 2 task";
-
-function displayOutput() {
-    return output;
 }
 
-console.log(displayOutput());
+console.log(myfunction())
